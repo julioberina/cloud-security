@@ -2,18 +2,18 @@
 **Goal:** Master the AWS control plane. Understand not just *how* to build, but *how* identities interact and where they fail.
 
 #### 🔲 PRE-START: Setup & Head Start (This Week)
-*   [ ] Set up AWS Study Notebook (Apple Notes/Obsidian).
-*   [ ] Create/Secure AWS Lab Account (Enable MFA immediately).
-*   [ ] Configure AWS CLI v2 and verify with `aws configure`.
-*   [ ] **Cantrill:** Watch/Note: *AWS Accounts Basics, MFA, IAM Basics, IAM Access Keys*.
-*   [ ] **flaws2.cloud:** Begin the **Attacker** path. 
+*   [x] Set up AWS Study Notebook (Apple Notes/Obsidian).
+*   [x] Create/Secure AWS Lab Account (Enable MFA immediately).
+*   [x] Configure AWS CLI v2 and verify with `aws configure`.
+*   [x] **Cantrill:** Watch/Note: *AWS Accounts Basics, MFA, IAM Basics, IAM Access Keys*.
+*   [x] **flaws2.cloud:** Begin the **Attacker** path. 
     *   *Note format: What identity did I get? What permission allowed the pivot?*
 
 ---
 
 #### 🔲 WEEK 1: The Basics & Shared Responsibility
 *   **Focus:** Core infrastructure and the "Security OF the Cloud" vs "Security IN the Cloud."
-*   [ ] **Cantrill:** *AWS Fundamentals (Global Infra, Public vs Private, Default VPC, EC2/S3 Basics).*
+*   [x] **Cantrill:** *AWS Fundamentals (Global Infra, Public vs Private, Default VPC, EC2/S3 Basics).*
 *   [ ] **Cantrill:** *Shared Responsibility Model, High-Availability vs Disaster Recovery.*
 *   [ ] **Note:** Compare Region vs. AZ from a security/compliance perspective.
 *   [ ] **flaws2.cloud:** 1 session.
