@@ -1,3 +1,28 @@
+# ☁️ Cloud Security Engineering Journey
+
+This repository serves as a technical log of my transition from **Senior Software Engineer** to **Cloud Security Engineer**. It documents my pursuit of deep AWS architectural knowledge, hands-on vulnerability research, and the application of security best practices in cloud-native environments.
+
+## 🎯 Background
+6+ years of full-stack and backend engineering experience across Java/Spring Boot, Angular, and DevSecOps pipelines. Currently leveraging that foundation to specialize in cloud security architecture, IAM, and infrastructure hardening on AWS.
+
+## 🏗️ Repository Structure
+- `/aws-saa` — Technical breakdowns of AWS services, architectural patterns, and demo notes aligned with the Cantrill SAA-C03 course.
+- `/flaws2-cloud` — Structured security lab write-ups from [flaws2.cloud](http://flaws2.cloud), focusing on attack paths, root cause analysis, and defensive remediation.
+- `/projects` — (Coming Soon) Terraform-based security baselines and automated incident response scripts.
+
+## 🛡️ Featured Write-ups
+- **[Flaws2.cloud Level 1: Credential Leaks via API Gateway](./flaws2-cloud/level1.md)** — How improper error handling exposes temporary STS credentials and how to prevent it.
+
+## 📜 Certification Path
+- ✅ CompTIA Security+ (Feb 2026)
+- ⏳ AWS Solutions Architect Associate — SAA-C03 (Est. Q3 2026)
+- 🔜 AWS Certified Security – Specialty
+
+## ⚠️ Disclaimer
+All security research in this repository was performed in intentionally vulnerable, sandboxed lab environments (flaws2.cloud). No real systems were targeted. Sensitive-looking values such as access keys have been redacted or replaced with placeholders.
+
+---
+
 ### 🟦 Phase 1: AWS Foundation & IAM Specialization (8-10 Weeks)
 **Goal:** Master the AWS control plane. Understand not just *how* to build, but *how* identities interact and where they fail.
 

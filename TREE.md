@@ -20,8 +20,10 @@ cloud-security/
 │   │   └── Terraform.md (later)
 │   │
 │   ├── labs/
-│   │   ├── flaws-cloud.md
-│   │   ├── flaws2-cloud.md
+│   │   ├── flaws2-cloud/
+│   │   │   ├── level1.md
+│   │   │   ├── level2.md
+│   │   │   └── ...
 │   │   └── iam-escalation-labs.md
 │   │
 │   └── weekly_logs/
